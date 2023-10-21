@@ -1,0 +1,17 @@
+
+.l-header{
+    width: 100%;
+    height: auto;
+    background: white;
+    border-bottom: initial;
+    padding: 2% 0% 3%;
+    z-index: 9998;
+    @include mq(tb){
+        padding: 1% 0% 0%;
+        border-bottom: 1px solid #333333;
+    }
+}
+
+.h-contactArea{
+    border: 1px solid #333333;
+}
